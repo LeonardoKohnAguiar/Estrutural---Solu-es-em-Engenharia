@@ -50,6 +50,7 @@
 
 .title.primary-color {
     font-size: 28px;
+    
 }
 
 .navbar-brand span {
@@ -333,17 +334,7 @@
     }
 }
 
-.col-6.col-md-2 {
-    border: 3px solid #0088FF;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* padding: 2em 0.3em;
-    border-radius: 0;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    width: 20%; */
-    
-    display: flex;
-    flex-direction: column;
+.contexto .item {
     align-items: center;
     text-align: center;
     background: ghostwhite;
@@ -354,14 +345,26 @@
     margin-top: 10px;
 }
 
+.col-6.bg-secondary-color {
+    background: #ece8ea;
+    padding: 1rem 1.5rem;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #0088FF;
+    
+}
+
+.title {
+    color: #0088FF;
+}
+
+.col-6.bg-secondary-color .title.primary-color {
+    
+}
+
 
 
 /* INFO */
-#info-content {
-    margin-bottom: 3em;
-    padding: 3em 1em;
-}
-
 #info-numbers {
     margin: 1.5em 0;
 }
