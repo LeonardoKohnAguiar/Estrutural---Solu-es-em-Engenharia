@@ -338,30 +338,22 @@
     align-items: center;
     text-align: center;
     background: ghostwhite;
-    padding: 1rem 1.5rem;
+    padding: 30px;
     border-radius: 8px;
     max-width: 256px;
     margin-left: 10px;
     margin-top: 10px;
+    border: 1px solid #424b55;
 }
 
 .col-6.bg-secondary-color {
     background: #ece8ea;
-    padding: 1rem 1.5rem;
-    margin-top: 10px;
+    padding: 30px;
     border-radius: 8px;
-    border: 1px solid #0088FF;
-    
+    max-width: 600px;
+    margin-left: 20px;
+    margin-top: 14px;
 }
-
-.title {
-    color: #0088FF;
-}
-
-.col-6.bg-secondary-color .title.primary-color {
-    
-}
-
 
 
 /* INFO */
@@ -384,3 +376,9 @@
         padding: 3.5em;
     }
 }
+
+
+
+
+
+
