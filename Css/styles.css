@@ -60,6 +60,12 @@
 .header {
     margin-bottom: 5em;
 }
+
+/* .main.main {
+    background-color: rgba(241, 239, 239, 0.384);
+} */
+
+
 /* NAVBAR */
 #navbar {
     border-bottom: 1px solid #7a7a7a;
@@ -189,7 +195,13 @@
 }
 
 /* DESTAQUES */
-#featured-container {
+
+.container {
+    
+    
+}
+
+#featured-container.container {
     margin-bottom: 4em;
 }
 
@@ -344,6 +356,7 @@
     margin-left: 10px;
     margin-top: 10px;
     border: 1px solid #424b55;
+    box-shadow: 2px 2px rgb(73, 71, 71);
 }
 
 .col-6.bg-secondary-color {
@@ -353,6 +366,7 @@
     max-width: 600px;
     margin-left: 20px;
     margin-top: 14px;
+    box-shadow: 2px 2px rgb(90, 132, 167);
 }
 
 
@@ -360,6 +374,7 @@
 #info-numbers {
     margin: 1.5em 0;
 }
+
 
 #info-banner {
     display: flex;
@@ -378,7 +393,10 @@
 }
 
 
+///////////////////////
 
 
-
-
+.newsletter-info {
+    background: #f7f7f7;
+    
+}
